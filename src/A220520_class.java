@@ -26,7 +26,7 @@ class Character {
 
     //메소드
     String print() {
-        return String.format("%s(HP : %d, MP : %d)의 스킬! %s!",name,hp,mp,skill) ;
+        return String.format("%s(HP : %d, MP : %d)의 스킬! %s!",name,hp,mp,skill);
     }
 }
 
