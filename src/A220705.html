@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    <link href="A_style.css" rel="stylesheet"></link>-->
+    <style>
+        /*태그 선택자*/
+        p{
+            color: aqua;
+        }
+
+        /*전체 선택자*/
+        *{
+            background: bisque;
+        }
+
+        .titel{
+            font-size: 32px;
+        }
+
+        #titel1{
+            font-size: 100px;
+        }
+
+        .titel, .titel1{}
+
+        /*자식선택자*/
+        .text > .texthead {
+            color: black;
+        }
+
+        .texthead{
+            background: aquamarine;
+            font-size: 32px;
+            margin-top: 50px;
+        }
+
+        .text {
+            border: 3px solid red;
+            border-radius: 10px;
+            width: 300px;
+            height: 200px;
+            margin: auto;
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .texthead1 {
+            border: 1px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <p style="color: red"> 안녕하세요 </p>
+    <p class="titel" id="titel1">아아아</p>
+    <p class="titel1" id="titel2">아아아</p>
+
+    <div class="text">
+        <p class="texthead" id="a1">제목</p>
+        <p class="texthead1" id="a2">제목</p>
+    </div>
+
+</body>
+</html>
