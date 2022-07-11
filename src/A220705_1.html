@@ -4,61 +4,102 @@
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
+        @import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
-        .container{
-            width: 800px;
-            border: 1px solid red;
+        * {
+            padding: 0px;
+            margin: 0px;
+        }
+        body {
+            width: 850px;
             margin: auto;
         }
-        header{
-            border: 1px solid red;
+        .container {
+            border: 1px solid #000000;
+            margin: 0px;
+            height: 38px;
         }
+        ul{
+            display: flex;
+        }
+        li {
+            list-style: none;
+            border: 1px solid #000000;
+            padding: 8px 15px;
 
-        .gnb, .inb {
-            border: 1px solid red;
         }
-        header .gnb ul li{
-            float: left;
-        }
-        header .inb ul li{
+        body #container3 ul {
             float: right;
         }
-        li{
-            list-style: none;
+
+
+        #text1 {
+            border: 1px solid #000000;
         }
 
+        #text2 {
+            border: 1px solid #000000;
+        }
+
+        #below {
+            border: 1px solid #000000;
+        }
+
+        #text {
+            width: 850px;
+            display: flex;
+            text-align: center;
+
+        }
+        #text1 {
+            width: 600px;
+            height: 500px;
+            float: left;
+        }
+        #text2 {
+            width: 400px;
+            height: 500px;
+            float: right;
+        }
+
+        #below {
+            text-align: center;
+            padding: 100px;
+        }
     </style>
 </head>
 <body>
-<div class="container">
-    <header>
-        <div class="gnb">
-            <ul>
-                <li>abcd</li>
-                <li>abcd</li>
-                <li>abcd</li>
-                <li>abcd</li>
-                <li>abcd</li>
-            </ul>
+    <div class="container" id = "container1">
+        <ul>
+            <li>GNB1</li>
+            <li>GNB2</li>
+            <li>GNB3</li>
+            <li>GNB4</li>
+            <li>GNB5</li>
+        </ul>
+    </div>
+    <div class="container" id="container2"></div>
+    <div class="container" id="container3">
+        <ul>
+            <li>GNB1</li>
+            <li>GNB2</li>
+            <li>GNB3</li>
+            <li>GNB4</li>
+            <li>GNB5</li>
+        </ul>
+    </div>
 
-        </div>
+    <div id = "text">
+    <div id="text1" style="font-family: '돋움'">It is a professional display space in which exhibitions under
+        diverse subjects including the cultual contents ard held.Such exhibitions
+        include the ARTTOON ART,Exhibition for 100 Modern Cartoonists of Korea,
+        and SF Mania Exhibition.</div>
+    <div id="text2" style="font-family: '궁서체'">It is a professional display space in which exhibitions under
+        diverse subjects including the cultual contents ard held.Such exhibitions
+        include the ARTTOON ART,Exhibition for 100 Modern Cartoonists of Korea,
+        and SF Mania Exhibition.</div>
+    </div>
 
-        <div class="inb">
-            <ul>
-                <li>abcd</li>
-                <li>abcd</li>
-                <li>abcd</li>
-                <li>abcd</li>
-                <li>abcd</li>
-            </ul>
-        </div>
-
-        <div id="<">
-        <div class="a">
-            aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
-        </div>
-        </div>
-    </header>
-</div>
+    <div id="below">office information</div>
 </body>
 </html>
